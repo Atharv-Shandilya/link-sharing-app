@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  outline: none;
+}
+
+.preview-background {
+  background: url(/preview/cover1.svg) center 101px no-repeat,
+    url(/preview/cover2.svg) center 111px no-repeat;
+    background-color: white;
+}
